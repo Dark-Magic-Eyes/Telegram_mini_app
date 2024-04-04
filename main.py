@@ -16,7 +16,7 @@ def start(message):
   # Tạo một nút bàn phím inline
   button = types.InlineKeyboardButton(
       "Play Game",
-      web_app=types.WebAppInfo(url="https://shrub-aquatic-kidney.glitch.me/"))
+      web_app=types.WebAppInfo(url="https://carpal-savory-kip.glitch.me/"))
   # Tạo một đánh dấu bàn phím inline với nút
   keyboard = types.InlineKeyboardMarkup().add(button)
   # Gửi một thông điệp với bàn phím inline
